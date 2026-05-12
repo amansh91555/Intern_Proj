@@ -162,10 +162,10 @@ document.getElementById("bookingForm").addEventListener("submit", (e) => {
 
     // Store booking (you can save to localStorage or send to backend)
     const bookings = JSON.parse(
-      localStorage.getItem("dreamspace_bookings") || "[]"
+      localStorage.getItem("Inframatrix_bookings") || "[]"
     );
     bookings.push(bookingData);
-    localStorage.setItem("dreamspace_bookings", JSON.stringify(bookings));
+    localStorage.setItem("Inframatrix_bookings", JSON.stringify(bookings));
 
     console.log("Booking submitted:", bookingData);
 

@@ -4,9 +4,9 @@ lucide.createIcons();
 // AUTHENTICATION
 
 // Storage keys
-const USERS_KEY = "dreamspace_users";
-const AUTH_KEY = "dreamspace_auth";
-const SESSION_KEY = "dreamspace_session";
+const USERS_KEY = "Inframatrix_users";
+const AUTH_KEY = "Inframatrix_auth";
+const SESSION_KEY = "Inframatrix_session";
 
 // Initialize users storage
 function initStorage() {

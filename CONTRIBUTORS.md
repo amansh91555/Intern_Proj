@@ -1,4 +1,4 @@
-# DreamSpace Contributors
+# Inframatrix Contributors
 
 ### Development & Design Team
 

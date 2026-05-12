@@ -249,11 +249,11 @@ document
 
       // Store in localStorage (optional)
       const contacts = JSON.parse(
-        localStorage.getItem("dreamspace_contacts") || "[]"
+        localStorage.getItem("Inframatrix_contacts") || "[]"
       );
       contacts.push(formData);
       localStorage.setItem(
-        "dreamspace_contacts",
+        "Inframatrix_contacts",
         JSON.stringify(contacts)
       );
 
